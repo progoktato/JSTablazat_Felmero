@@ -1,0 +1,21 @@
+1. feladat
+Számolja ki egy derékszögű háromszög átfogójának hosszát a befogók hosszának ismeretében!
+Az eredményt 2 tizedes jegyre kerekítve jelenítse meg!
+
+Meglévő részek törlése : TILOS!
+Meglévő részek kiegészítése : Lehetséges és szükséges
+
+
+2. feladat
+A mellékelt mintakép alapján alakítsa ki a <FORM>-ot!
+A csúszkákkal meghatározott számú sorral és azon belül meghatározott számú cellákkal hozzon létre táblázatot!
+Amennyiben a jelölőnégyzet be van jelölve (alapértelmezett), akkor a táblázat első sor <th> elemekből álljon!
+
+Csúszka minimum és maximum értékei: 
+ - sorok számánál 2,10
+ - cellák számánál 3,20
+
+
+Megjegyzések:
+ - Nézze meg a  képernyőképeket és videókat!
+ - Az elkezdett változatokból kiindulva próbálja megoldani a feladatokat!

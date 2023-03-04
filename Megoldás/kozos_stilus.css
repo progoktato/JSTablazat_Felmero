@@ -1,0 +1,35 @@
+.eredmeny {
+    color: red;
+    font-weight: bolder;
+}
+
+fieldset {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+fieldset label {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+#ID_tablazat {
+    background-color:lightgoldenrodyellow;
+    width: 90%;
+    margin: auto
+    
+}
+
+td,th {
+    width: 4%;
+    height: 2em;
+ }
+
+td {
+    border: 1px solid red;
+}
+
+th {
+    border: 3px dotted darkred;
+    background-color: lightsalmon;
+}

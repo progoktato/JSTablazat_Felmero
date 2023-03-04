@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>2. feladat</title>
+    <link rel="stylesheet" href="kozos_stilus.css">
+    <script src="2_script.js"></script>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Táblázat paraméterei</legend>
+            <label for="sorokSzama">Sorok száma:</label>
+            <span class="eredmeny" id="ID_span_sorok_szama">3</span>
+            <input type="range" name="sorokSzama" min="2" max="10" value="3" id="ID_sorok_szama"
+                onchange="SorSzamValtozas()">
+            <label for="cellakSzama">Cellák száma:</label>
+            <span class="eredmeny" id="ID_span_cellak_szama">6</span>
+            <input type="range" name="cellakSzama" min="3" max="20" value="6" id="ID_cellak_szama"
+                onchange="CellaSzamValtozas()">
+            <label for="elsoSorKiemelt">Az első sor cellái TH-k legyenek?</label>
+            <input type="checkbox" name="elsoSorKiemelt" id="ID_elso_sor_kiemelt" checked>
+        </fieldset>
+        <input type="button" value="Táblázat létrehozása" onclick="Letrehoz()">
+    </form>
+    <div>
+        <table id="ID_tablazat"></table>
+    </div>
+</body>
+
+</html>
